@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1886A1E22B69F87006000EB /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1886A1D22B69F87006000EB /* GraphView.swift */; };
+		A1886A2022B6BCCA006000EB /* GraphViewHospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1886A1F22B6BCCA006000EB /* GraphViewHospital.swift */; };
+		A1886A2222B6C37C006000EB /* GraphViewChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1886A2122B6C37C006000EB /* GraphViewChild.swift */; };
+		A1886A2422B6C839006000EB /* CounterViewH.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1886A2322B6C839006000EB /* CounterViewH.swift */; };
+		A1886A2622B6CBC4006000EB /* CounterViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1886A2522B6CBC4006000EB /* CounterViewC.swift */; };
+		DE1E731122A3D03B0097451A /* 달빛.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1E731022A3D03B0097451A /* 달빛.png */; };
+		DE1E731322A3D7F30097451A /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E731222A3D7F30097451A /* SelectViewController.swift */; };
+		DE1E731522A3D9E20097451A /* ClinicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E731422A3D9E20097451A /* ClinicViewController.swift */; };
+		DE1E731B22A3DAAF0097451A /* ClinicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E731A22A3DAAF0097451A /* ClinicTableViewController.swift */; };
+		DE1E731D22A3DADB0097451A /* DetailClinicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E731C22A3DADB0097451A /* DetailClinicTableViewController.swift */; };
+		DE1E731F22A3DB2B0097451A /* ClinicMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E731E22A3DB2B0097451A /* ClinicMapViewController.swift */; };
+		DE1E732122A3DC0B0097451A /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E732022A3DC0B0097451A /* ChildViewController.swift */; };
+		DE1E732322A3DC260097451A /* ChildTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E732222A3DC260097451A /* ChildTableViewController.swift */; };
+		DE1E732522A3DC490097451A /* DetailChildTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E732422A3DC490097451A /* DetailChildTableViewController.swift */; };
+		DE1E732722A3DC610097451A /* ChildMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E732622A3DC610097451A /* ChildMapViewController.swift */; };
+		DE21614122A430A200090448 /* 광진구3.png in Resources */ = {isa = PBXBuildFile; fileRef = DE21613522A430A100090448 /* 광진구3.png */; };
+		DE21614222A430A200090448 /* 동대문구.png in Resources */ = {isa = PBXBuildFile; fileRef = DE21613622A430A100090448 /* 동대문구.png */; };
+		DE21614322A430A200090448 /* 종로구.png in Resources */ = {isa = PBXBuildFile; fileRef = DE21613722A430A100090448 /* 종로구.png */; };
+		DE21614422A430A200090448 /* 광진구.png in Resources */ = {isa = PBXBuildFile; fileRef = DE21613822A430A100090448 /* 광진구.png */; };
+		DE21614622A430A200090448 /* 관악구.png in Resources */ = {isa = PBXBuildFile; fileRef = DE21613A22A430A100090448 /* 관악구.png */; };
+		DE21614822A430A200090448 /* 강남구.png in Resources */ = {isa = PBXBuildFile; fileRef = DE21613C22A430A200090448 /* 강남구.png */; };
+		DE21614922A430A200090448 /* 동작구.png in Resources */ = {isa = PBXBuildFile; fileRef = DE21613D22A430A200090448 /* 동작구.png */; };
+		DE21614A22A430A200090448 /* 구로구.png in Resources */ = {isa = PBXBuildFile; fileRef = DE21613E22A430A200090448 /* 구로구.png */; };
+		DE21614B22A430A200090448 /* 광진구2.png in Resources */ = {isa = PBXBuildFile; fileRef = DE21613F22A430A200090448 /* 광진구2.png */; };
+		DE21614E22A43DD100090448 /* mic.png in Resources */ = {isa = PBXBuildFile; fileRef = DE21614D22A43DD100090448 /* mic.png */; };
+		DE21615022A43DD800090448 /* stop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE21614F22A43DD800090448 /* stop.jpg */; };
+		DE2F73C022A3AD3C00B518A7 /* 약국.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE2F73BE22A3AD3C00B518A7 /* 약국.jpg */; };
+		DE2F73C122A3AD3C00B518A7 /* 병원.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE2F73BF22A3AD3C00B518A7 /* 병원.jpg */; };
+		DE74703D22B640520005DA3B /* 메인.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE74703C22B640520005DA3B /* 메인.jpeg */; };
+		DE74704022B644670005DA3B /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE74703E22B644670005DA3B /* PushButtonView.swift */; };
+		DE74704122B644670005DA3B /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE74703F22B644670005DA3B /* CounterView.swift */; };
+		DEB5B88C227A025F007B31ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5B88B227A025F007B31ED /* AppDelegate.swift */; };
+		DEB5B88E227A025F007B31ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5B88D227A025F007B31ED /* ViewController.swift */; };
+		DEB5B891227A025F007B31ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB5B88F227A025F007B31ED /* Main.storyboard */; };
+		DEB5B893227A0261007B31ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB5B892227A0261007B31ED /* Assets.xcassets */; };
+		DEB5B896227A0261007B31ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB5B894227A0261007B31ED /* LaunchScreen.storyboard */; };
+		DEB5B89E227A02F4007B31ED /* HospitalTableViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5B89D227A02F4007B31ED /* HospitalTableViewcontroller.swift */; };
+		DEB5B8A0227A0399007B31ED /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5B89F227A0399007B31ED /* MapViewController.swift */; };
+		DEB5B8A2227A0D95007B31ED /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5B8A1227A0D95007B31ED /* Hospital.swift */; };
+		DEB5B8A4227A13E9007B31ED /* DetailHospitalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5B8A3227A13E9007B31ED /* DetailHospitalTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1886A1D22B69F87006000EB /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		A1886A1F22B6BCCA006000EB /* GraphViewHospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewHospital.swift; sourceTree = "<group>"; };
+		A1886A2122B6C37C006000EB /* GraphViewChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewChild.swift; sourceTree = "<group>"; };
+		A1886A2322B6C839006000EB /* CounterViewH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewH.swift; sourceTree = "<group>"; };
+		A1886A2522B6CBC4006000EB /* CounterViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewC.swift; sourceTree = "<group>"; };
+		DE1E731022A3D03B0097451A /* 달빛.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "달빛.png"; sourceTree = "<group>"; };
+		DE1E731222A3D7F30097451A /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		DE1E731422A3D9E20097451A /* ClinicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicViewController.swift; sourceTree = "<group>"; };
+		DE1E731A22A3DAAF0097451A /* ClinicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicTableViewController.swift; sourceTree = "<group>"; };
+		DE1E731C22A3DADB0097451A /* DetailClinicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailClinicTableViewController.swift; sourceTree = "<group>"; };
+		DE1E731E22A3DB2B0097451A /* ClinicMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicMapViewController.swift; sourceTree = "<group>"; };
+		DE1E732022A3DC0B0097451A /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		DE1E732222A3DC260097451A /* ChildTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildTableViewController.swift; sourceTree = "<group>"; };
+		DE1E732422A3DC490097451A /* DetailChildTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailChildTableViewController.swift; sourceTree = "<group>"; };
+		DE1E732622A3DC610097451A /* ChildMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildMapViewController.swift; sourceTree = "<group>"; };
+		DE21613522A430A100090448 /* 광진구3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "광진구3.png"; sourceTree = "<group>"; };
+		DE21613622A430A100090448 /* 동대문구.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "동대문구.png"; sourceTree = "<group>"; };
+		DE21613722A430A100090448 /* 종로구.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "종로구.png"; sourceTree = "<group>"; };
+		DE21613822A430A100090448 /* 광진구.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "광진구.png"; sourceTree = "<group>"; };
+		DE21613A22A430A100090448 /* 관악구.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "관악구.png"; sourceTree = "<group>"; };
+		DE21613C22A430A200090448 /* 강남구.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "강남구.png"; sourceTree = "<group>"; };
+		DE21613D22A430A200090448 /* 동작구.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "동작구.png"; sourceTree = "<group>"; };
+		DE21613E22A430A200090448 /* 구로구.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "구로구.png"; sourceTree = "<group>"; };
+		DE21613F22A430A200090448 /* 광진구2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "광진구2.png"; sourceTree = "<group>"; };
+		DE21614D22A43DD100090448 /* mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic.png; sourceTree = "<group>"; };
+		DE21614F22A43DD800090448 /* stop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stop.jpg; sourceTree = "<group>"; };
+		DE2F73BE22A3AD3C00B518A7 /* 약국.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "약국.jpg"; sourceTree = "<group>"; };
+		DE2F73BF22A3AD3C00B518A7 /* 병원.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "병원.jpg"; sourceTree = "<group>"; };
+		DE74703C22B640520005DA3B /* 메인.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "메인.jpeg"; sourceTree = "<group>"; };
+		DE74703E22B644670005DA3B /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		DE74703F22B644670005DA3B /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		DEB5B888227A025F007B31ED /* HospitalMap real2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HospitalMap real2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB5B88B227A025F007B31ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEB5B88D227A025F007B31ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEB5B890227A025F007B31ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEB5B892227A0261007B31ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEB5B895227A0261007B31ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEB5B897227A0261007B31ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB5B89D227A02F4007B31ED /* HospitalTableViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalTableViewcontroller.swift; sourceTree = "<group>"; };
+		DEB5B89F227A0399007B31ED /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DEB5B8A1227A0D95007B31ED /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		DEB5B8A3227A13E9007B31ED /* DetailHospitalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHospitalTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEB5B885227A025F007B31ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE21613422A42B6400090448 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				DE21614D22A43DD100090448 /* mic.png */,
+				DE21613522A430A100090448 /* 광진구3.png */,
+				DE21613F22A430A200090448 /* 광진구2.png */,
+				DE21614F22A43DD800090448 /* stop.jpg */,
+				DE21613C22A430A200090448 /* 강남구.png */,
+				DE74703C22B640520005DA3B /* 메인.jpeg */,
+				DE21613A22A430A100090448 /* 관악구.png */,
+				DE21613822A430A100090448 /* 광진구.png */,
+				DE21613E22A430A200090448 /* 구로구.png */,
+				DE21613622A430A100090448 /* 동대문구.png */,
+				DE21613D22A430A200090448 /* 동작구.png */,
+				DE21613722A430A100090448 /* 종로구.png */,
+				DE2F73BE22A3AD3C00B518A7 /* 약국.jpg */,
+				DE1E731022A3D03B0097451A /* 달빛.png */,
+				DE2F73BF22A3AD3C00B518A7 /* 병원.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		DEB5B87F227A025F007B31ED = {
+			isa = PBXGroup;
+			children = (
+				DE21613422A42B6400090448 /* image */,
+				DEB5B88A227A025F007B31ED /* HospitalMap real */,
+				DEB5B889227A025F007B31ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB5B889227A025F007B31ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEB5B888227A025F007B31ED /* HospitalMap real2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEB5B88A227A025F007B31ED /* HospitalMap real */ = {
+			isa = PBXGroup;
+			children = (
+				DE74703F22B644670005DA3B /* CounterView.swift */,
+				DE74703E22B644670005DA3B /* PushButtonView.swift */,
+				DEB5B88B227A025F007B31ED /* AppDelegate.swift */,
+				DEB5B88F227A025F007B31ED /* Main.storyboard */,
+				DEB5B892227A0261007B31ED /* Assets.xcassets */,
+				DE1E731222A3D7F30097451A /* SelectViewController.swift */,
+				DEB5B894227A0261007B31ED /* LaunchScreen.storyboard */,
+				DEB5B897227A0261007B31ED /* Info.plist */,
+				DEB5B8A1227A0D95007B31ED /* Hospital.swift */,
+				DEB5B88D227A025F007B31ED /* ViewController.swift */,
+				DEB5B89D227A02F4007B31ED /* HospitalTableViewcontroller.swift */,
+				DEB5B8A3227A13E9007B31ED /* DetailHospitalTableViewController.swift */,
+				DEB5B89F227A0399007B31ED /* MapViewController.swift */,
+				DE1E731422A3D9E20097451A /* ClinicViewController.swift */,
+				DE1E731A22A3DAAF0097451A /* ClinicTableViewController.swift */,
+				DE1E731C22A3DADB0097451A /* DetailClinicTableViewController.swift */,
+				DE1E731E22A3DB2B0097451A /* ClinicMapViewController.swift */,
+				DE1E732022A3DC0B0097451A /* ChildViewController.swift */,
+				DE1E732222A3DC260097451A /* ChildTableViewController.swift */,
+				DE1E732422A3DC490097451A /* DetailChildTableViewController.swift */,
+				DE1E732622A3DC610097451A /* ChildMapViewController.swift */,
+				A1886A1D22B69F87006000EB /* GraphView.swift */,
+				A1886A1F22B6BCCA006000EB /* GraphViewHospital.swift */,
+				A1886A2122B6C37C006000EB /* GraphViewChild.swift */,
+				A1886A2322B6C839006000EB /* CounterViewH.swift */,
+				A1886A2522B6CBC4006000EB /* CounterViewC.swift */,
+			);
+			path = "HospitalMap real";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEB5B887227A025F007B31ED /* HospitalMap real2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB5B89A227A0261007B31ED /* Build configuration list for PBXNativeTarget "HospitalMap real2" */;
+			buildPhases = (
+				DEB5B884227A025F007B31ED /* Sources */,
+				DEB5B885227A025F007B31ED /* Frameworks */,
+				DEB5B886227A025F007B31ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HospitalMap real2";
+			productName = "HospitalMap real";
+			productReference = DEB5B888227A025F007B31ED /* HospitalMap real2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEB5B880227A025F007B31ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "최지";
+				TargetAttributes = {
+					DEB5B887227A025F007B31ED = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DEB5B883227A025F007B31ED /* Build configuration list for PBXProject "HospitalMap real2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEB5B87F227A025F007B31ED;
+			productRefGroup = DEB5B889227A025F007B31ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEB5B887227A025F007B31ED /* HospitalMap real2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEB5B886227A025F007B31ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE21615022A43DD800090448 /* stop.jpg in Resources */,
+				DEB5B896227A0261007B31ED /* LaunchScreen.storyboard in Resources */,
+				DE2F73C122A3AD3C00B518A7 /* 병원.jpg in Resources */,
+				DE1E731122A3D03B0097451A /* 달빛.png in Resources */,
+				DE21614322A430A200090448 /* 종로구.png in Resources */,
+				DE21614222A430A200090448 /* 동대문구.png in Resources */,
+				DE21614622A430A200090448 /* 관악구.png in Resources */,
+				DE21614A22A430A200090448 /* 구로구.png in Resources */,
+				DE21614122A430A200090448 /* 광진구3.png in Resources */,
+				DE2F73C022A3AD3C00B518A7 /* 약국.jpg in Resources */,
+				DE21614822A430A200090448 /* 강남구.png in Resources */,
+				DEB5B893227A0261007B31ED /* Assets.xcassets in Resources */,
+				DE21614B22A430A200090448 /* 광진구2.png in Resources */,
+				DEB5B891227A025F007B31ED /* Main.storyboard in Resources */,
+				DE21614E22A43DD100090448 /* mic.png in Resources */,
+				DE74703D22B640520005DA3B /* 메인.jpeg in Resources */,
+				DE21614422A430A200090448 /* 광진구.png in Resources */,
+				DE21614922A430A200090448 /* 동작구.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEB5B884227A025F007B31ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB5B88E227A025F007B31ED /* ViewController.swift in Sources */,
+				DE74704122B644670005DA3B /* CounterView.swift in Sources */,
+				A1886A2022B6BCCA006000EB /* GraphViewHospital.swift in Sources */,
+				DEB5B88C227A025F007B31ED /* AppDelegate.swift in Sources */,
+				DE1E731D22A3DADB0097451A /* DetailClinicTableViewController.swift in Sources */,
+				DE1E731F22A3DB2B0097451A /* ClinicMapViewController.swift in Sources */,
+				DE1E731B22A3DAAF0097451A /* ClinicTableViewController.swift in Sources */,
+				DE1E732522A3DC490097451A /* DetailChildTableViewController.swift in Sources */,
+				DE74704022B644670005DA3B /* PushButtonView.swift in Sources */,
+				DE1E732722A3DC610097451A /* ChildMapViewController.swift in Sources */,
+				DEB5B89E227A02F4007B31ED /* HospitalTableViewcontroller.swift in Sources */,
+				DE1E731322A3D7F30097451A /* SelectViewController.swift in Sources */,
+				A1886A1E22B69F87006000EB /* GraphView.swift in Sources */,
+				A1886A2622B6CBC4006000EB /* CounterViewC.swift in Sources */,
+				DEB5B8A2227A0D95007B31ED /* Hospital.swift in Sources */,
+				DEB5B8A4227A13E9007B31ED /* DetailHospitalTableViewController.swift in Sources */,
+				DE1E731522A3D9E20097451A /* ClinicViewController.swift in Sources */,
+				A1886A2222B6C37C006000EB /* GraphViewChild.swift in Sources */,
+				A1886A2422B6C839006000EB /* CounterViewH.swift in Sources */,
+				DEB5B8A0227A0399007B31ED /* MapViewController.swift in Sources */,
+				DE1E732322A3DC260097451A /* ChildTableViewController.swift in Sources */,
+				DE1E732122A3DC0B0097451A /* ChildViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEB5B88F227A025F007B31ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB5B890227A025F007B31ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEB5B894227A0261007B31ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB5B895227A0261007B31ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEB5B898227A0261007B31ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEB5B899227A0261007B31ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB5B89B227A0261007B31ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X75WC976X9;
+				INFOPLIST_FILE = "HospitalMap real/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kpu.2019class.HospitalMap-real";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEB5B89C227A0261007B31ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X75WC976X9;
+				INFOPLIST_FILE = "HospitalMap real/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kpu.2019class.HospitalMap-real";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEB5B883227A025F007B31ED /* Build configuration list for PBXProject "HospitalMap real2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB5B898227A0261007B31ED /* Debug */,
+				DEB5B899227A0261007B31ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB5B89A227A0261007B31ED /* Build configuration list for PBXNativeTarget "HospitalMap real2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB5B89B227A0261007B31ED /* Debug */,
+				DEB5B89C227A0261007B31ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEB5B880227A025F007B31ED /* Project object */;
+}
